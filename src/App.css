@@ -19,9 +19,58 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.container-lg {
+  margin-top: 200px;
+  margin-bottom: 100px;
+
+}
+
+.middle > p {
+  color:white!important;
+}
+
+.row-down {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  height: 100vh;
+  margin-top: 50px;
+}
+
+
+.btn-secondary {
+  color: transparent;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+button.btn.btn-secondary.btn-lg {
+  background-color: white;
+  color: black;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  color:black;
+  font-size: 25px;
+}
+
+.col-md-3 > img {
+  width: 45%;
+}
+
+.col-md-3 p {
+  color: black;
+  font-size: 17px;
+
 }
 
 .App-link {
@@ -35,4 +84,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.container-top {
+  margin-top: 20px;
 }
